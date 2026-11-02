@@ -1,7 +1,7 @@
 # nikai.ca — redirects from the old WordPress site to the new STL site
 # Netlify _redirects format: <old path> <new path> <status>
 # Every rule points straight at its final page (no chains).
-# New pages:  /  ·  /sks-chassis-xcr/  ·  /sks-chassis-oem/  ·  /sks-charging-handle/
+# New pages:  /  ·  /sks-chassis-xcr/  ·  /sks-chassis-oem/
 #             /xcr-modification-guide/  ·  /parts/  ·  /faq/
 
 # --- The modification guide (old blog post) ---
@@ -18,7 +18,7 @@
 /product/complete-sks-chassis           /sks-chassis-xcr/   301
 /product/sks-chassis-for-oem-duckbill-magazines            /sks-chassis-oem/   301
 /product/printable-sks-chassis-for-oem-duckbill-magazines  /sks-chassis-oem/   301
-/product/extended-charging-handle-for-sks                  /sks-charging-handle/   301
+/product/extended-charging-handle-for-sks                  /   301
 
 # --- Hardware kit -> parts list ---
 /product/maple-sks-chassis-hardware-kit-canada  /parts/  301
@@ -31,7 +31,7 @@
 
 # --- R&D-era pages -> homepage ---
 /projects/ppa-cf-drop-in-chassis        /sks-chassis-oem/   301
-/projects/gloved-charging-handle        /sks-charging-handle/   301
+/projects/gloved-charging-handle        /   301
 /projects/*                             /   301
 /projects                               /   301
 /about                                  /   301

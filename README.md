@@ -8,7 +8,6 @@ Static site for Nikai's printable SKS designs. Every purchase goes to the Cults3
 | `/` | `index.html` — the three designs |
 | `/sks-chassis-xcr/` | `sks-chassis-xcr/index.html` |
 | `/sks-chassis-oem/` | `sks-chassis-oem/index.html` |
-| `/sks-charging-handle/` | `sks-charging-handle/index.html` |
 | `/xcr-modification-guide/` | `xcr-modification-guide/index.html` |
 | `/parts/` | `parts/index.html` |
 | `/faq/` | `faq/index.html` |
