@@ -1,23 +1,24 @@
 # nikai.ca — redirects from the old WordPress site to the new STL site
 # Netlify _redirects format: <old path> <new path> <status>
 # Every rule points straight at its final page (no chains).
-# New pages:  /  ·  /xcr-modification-guide/  ·  /parts/  ·  /faq/
+# New pages:  /  ·  /sks-chassis-xcr/  ·  /sks-chassis-oem/  ·  /sks-charging-handle/
+#             /xcr-modification-guide/  ·  /parts/  ·  /faq/
 
 # --- The modification guide (old blog post) ---
 /how-to-mod-the-rifle-for-xcr-mags      /xcr-modification-guide/  301
 /  p=4696                               /xcr-modification-guide/  301
 
-# --- Chassis posts and products -> homepage (the designs) ---
-/sks-chassis-oem-magazines              /   301
-/elementor-4721                         /   301
-/  p=4721                               /   301
+# --- Chassis posts and products -> their design page ---
+/sks-chassis-oem-magazines              /sks-chassis-oem/   301
+/elementor-4721                         /sks-chassis-oem/   301
+/  p=4721                               /sks-chassis-oem/   301
 /sks-chassis-grip-update                /   301
-/sks-chassis-free-printable-canada      /   301
-/product/printable-sks-chassis          /   301
-/product/complete-sks-chassis           /   301
-/product/sks-chassis-for-oem-duckbill-magazines            /   301
-/product/printable-sks-chassis-for-oem-duckbill-magazines  /   301
-/product/extended-charging-handle-for-sks                  /   301
+/sks-chassis-free-printable-canada      /sks-chassis-xcr/   301
+/product/printable-sks-chassis          /sks-chassis-xcr/   301
+/product/complete-sks-chassis           /sks-chassis-xcr/   301
+/product/sks-chassis-for-oem-duckbill-magazines            /sks-chassis-oem/   301
+/product/printable-sks-chassis-for-oem-duckbill-magazines  /sks-chassis-oem/   301
+/product/extended-charging-handle-for-sks                  /sks-charging-handle/   301
 
 # --- Hardware kit -> parts list ---
 /product/maple-sks-chassis-hardware-kit-canada  /parts/  301
@@ -29,8 +30,8 @@
 /partner                                /faq/   301
 
 # --- R&D-era pages -> homepage ---
-/projects/ppa-cf-drop-in-chassis        /   301
-/projects/gloved-charging-handle        /   301
+/projects/ppa-cf-drop-in-chassis        /sks-chassis-oem/   301
+/projects/gloved-charging-handle        /sks-charging-handle/   301
 /projects/*                             /   301
 /projects                               /   301
 /about                                  /   301
@@ -64,6 +65,9 @@
 /privacy                                /   301
 
 # --- WordPress leftovers ---
+/wp-content/uploads/*                   /   301
+/wp-admin/*                             /   301
+/wp-login.php                           /   301
 /feed/*                                 /   301
 /feed                                   /   301
 /wp-sitemap.xml                         /sitemap.xml  301
