@@ -1,3 +1,74 @@
-# nikai.ca now redirects everything to getshootable.app.
-# The previous STL-site redirect map is in git history.
-/*  https://getshootable.app/  301!
+# nikai.ca — redirects from the old WordPress site to the new STL site
+# Netlify _redirects format: <old path> <new path> <status>
+# Every rule points straight at its final page (no chains).
+# New pages:  /  ·  /sks-chassis-xcr/  ·  /sks-chassis-oem/
+#             /xcr-modification-guide/  ·  /parts/  ·  /faq/
+
+# --- The modification guide (old blog post) ---
+/how-to-mod-the-rifle-for-xcr-mags      /xcr-modification-guide/  301
+/  p=4696                               /xcr-modification-guide/  301
+
+# --- Chassis posts and products -> their design page ---
+/sks-chassis-oem-magazines              /sks-chassis-oem/   301
+/elementor-4721                         /sks-chassis-oem/   301
+/  p=4721                               /sks-chassis-oem/   301
+/sks-chassis-grip-update                /   301
+/sks-chassis-free-printable-canada      /sks-chassis-xcr/   301
+/product/printable-sks-chassis          /sks-chassis-xcr/   301
+/product/complete-sks-chassis           /sks-chassis-xcr/   301
+/product/sks-chassis-for-oem-duckbill-magazines            /sks-chassis-oem/   301
+/product/printable-sks-chassis-for-oem-duckbill-magazines  /sks-chassis-oem/   301
+/product/extended-charging-handle-for-sks                  /   301
+
+# --- Hardware kit -> parts list ---
+/product/maple-sks-chassis-hardware-kit-canada  /parts/  301
+
+# --- Services, contact and FAQ -> FAQ (explains you no longer build for others) ---
+/faqs                                   /faq/   301
+/services                               /faq/   301
+/contact-us                             /faq/   301
+/partner                                /faq/   301
+
+# --- R&D-era pages -> homepage ---
+/projects/ppa-cf-drop-in-chassis        /sks-chassis-oem/   301
+/projects/gloved-charging-handle        /   301
+/projects/*                             /   301
+/projects                               /   301
+/about                                  /   301
+/about-us                               /   301
+/research-log/*                         /   301
+/research-log                           /   301
+/blog/*                                 /   301
+/blog                                   /   301
+/introducing-the-nikai-discord-for-support-early-drops-and-tester-access-in-one-place  /  301
+
+# --- Old store: shop, categories, tags, other products ---
+/shop/*                                 /   301
+/shop                                   /   301
+/product-category/*                     /   301
+/product-tag/*                          /   301
+/product/*                              /   301
+/cart/*                                 /   301
+/cart                                   /   301
+/checkout/*                             /   301
+/checkout                               /   301
+/my-account/*                           /   301
+/my-account                             /   301
+/wishlist/*                             /   301
+/wishlist                               /   301
+
+# --- Policies ---
+/terms                                  /   301
+/security                               /   301
+/refund_returns                         /   301
+/privacy-policy                         /   301
+/privacy                                /   301
+
+# --- WordPress leftovers ---
+/wp-content/uploads/*                   /   301
+/wp-admin/*                             /   301
+/wp-login.php                           /   301
+/feed/*                                 /   301
+/feed                                   /   301
+/wp-sitemap.xml                         /sitemap.xml  301
+/sitemap_index.xml                      /sitemap.xml  301
